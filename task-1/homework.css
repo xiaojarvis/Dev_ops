@@ -1,0 +1,107 @@
+.body{
+    max-width: 1400px;
+    margin: auto;
+}
+.column{
+    width: 1400px;
+    height: 250px;
+    z-index: 0;
+}
+.heading{
+    width: 1400px;
+    height: 250px;
+    line-height: 250px;
+    position: absolute;
+    margin-top:-250px;
+    margin-bottom: 10px;
+}
+.heading >img{
+    vertical-align: middle;
+    z-index: 1;
+}
+#picture{
+    position: absolute;
+    z-index: -1;
+}
+.head{
+    display: inline;
+    z-index: 1;
+    color: white;
+}
+.objetive{
+    width: 1400px;
+    display: -webkit-flex;
+		display: flex;
+		background-color: #0384a8;
+		margin-bottom: 10px;
+}
+.obj{
+    flex: 1;
+	height: 60px;
+	line-height: 60px; 
+    text-align: center;
+    background-color: #0384a8;
+    border-radius: 2px;
+}
+.mould{
+    width: 450px;
+    height: 500px;
+}
+.mould1{
+	height: 34px;
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	width: 100;
+}
+.crosshead1{
+    font-size: 35px;
+}
+.crosshead2{
+    font-size: 28px;
+    flex-grow: 1;
+    color: lightskyblue;
+}
+.crosshead3{
+    font-size: 28px;
+    color: lightskyblue;
+}
+.project{
+    color: black;
+    flex: 1;
+    font-size: 20px;
+}
+.tapeset1 >div >div >div{
+    float: left;
+}
+.tapeset2{
+    display: flex;
+}
+.mould2{
+    clear: left;
+	flex: 2;
+	margin-right:30px;
+}
+.mould3{
+    clear: right;
+    flex: 2;
+    margin-right: 30px; 
+}
+.mould4 > span{
+    display: block;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.toolbar{
+    width: 367px;
+    height: 244px;
+    text-align: center;
+}
+.railing{
+    float: left;
+    text-align: center;
+    width: 1400px;
+    background-color: #0384a8;
+    color: white;
+}
